@@ -5,7 +5,7 @@ export default function BannerGlobalCompact() {
   return (
     <div className='div-BannerGlobal'>
         <div className='div-logoGC'>
-          <img className='globalCompact-Logo' src="http://drive.google.com/uc?export=view&id=1ByzxNTI-OdbnH5AJUNi9i767FYyUxI2N" alt="global compact UN" />
+          <img className='globalCompact-Logo' src="http://drive.google.com/uc?export=view&id=1sCwN7yvgbwhr_qEM2ZOvV1WzVwhGaC15" alt="global compact UN" />
         </div>
         <div className='div-textGC' >
             <p>
