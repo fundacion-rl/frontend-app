@@ -7,11 +7,18 @@
 .actionContainer {
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    width: 25%;
+    min-height: 80%;
+    padding: 1rem;
+    margin-left: 3rem;
     text-align: justify;
-    text-justify: inter-word;
-    padding:0rem 5rem 0rem 5rem;
-
+    
+}
+.actionContainer img {
+    width: 70%;
+}
+.actionContainer p {
+    width: 70%;
 }
 .action-Button{
     align-self: flex-start;
@@ -21,7 +28,7 @@
     text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: .5rem 1rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     font-size: 14px;
     font-weight: 300;
     border-radius: 15pt;
