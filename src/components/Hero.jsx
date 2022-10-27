@@ -1,6 +1,7 @@
 import React from 'react'
 import CallToAction from './CallToAction'
 import '../styles/Hero.css'
+import SocialMedia from './SocialMedia'
 
 
 export default function Hero() {
@@ -8,7 +9,7 @@ export default function Hero() {
     <div className='heroContainer'>
         <CallToAction/>
         <div>
-            <p>RedesSociales</p>
+            <SocialMedia/>
         </div>
     </div>
   )
