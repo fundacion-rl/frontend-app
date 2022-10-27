@@ -8,6 +8,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-height: 76vh;
+    /* background-image: url('http://drive.google.com/uc?export=view&id=1UXyfNar-QOyvOQ-V9LDJ7xBR9GlRGBl-'); */
+    background-image: url('http://drive.google.com/uc?export=view&id=1VShtO8QVdJsVLE4UocmK-69CzQsqxNBq');
+    /* background-image: url('http://drive.google.com/uc?export=view&id=1qk2gkLhLp_WOwmQ7-G8kL8ryShd7-80a'); */
+     background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    
 }
 .Nav-container{
     width: 50%;

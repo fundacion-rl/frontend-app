@@ -8,9 +8,10 @@
     display: flex;
     flex-direction: column;
     width: 30rem;
-    padding: 5rem;
     text-align: justify;
     text-justify: inter-word;
+    padding:0rem 5rem 0rem 5rem;
+
 }
 .action-Button{
     align-self: flex-start;

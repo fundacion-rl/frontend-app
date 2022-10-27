@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-BannerGlobal {
+    /* background-color: #fecc0d; */
+    background-color: #ffae00;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+.div-logoGC{
+    width: 50%;
+}
+.div-textGC{
+    width: 50%;
+    text-align: justify;
+    padding: 3rem;
+    color: #1b3555;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
