@@ -8,6 +8,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 80vh;
+    background-image: url('http://drive.google.com/uc?export=view&id=1UXyfNar-QOyvOQ-V9LDJ7xBR9GlRGBl-');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 37rem;
 }
 .Nav-container{
     width: 50%;
