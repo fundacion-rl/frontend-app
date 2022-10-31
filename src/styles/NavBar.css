@@ -1,21 +1,17 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+@import '~antd/dist/antd.css';
+
 .main-top{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    min-height: 71.9vh;
-    /* background-image: url('http://drive.google.com/uc?export=view&id=1UXyfNar-QOyvOQ-V9LDJ7xBR9GlRGBl-'); */
-    background-image: url('http://drive.google.com/uc?export=view&id=1F3B1jZDUek8w7PNUPyHsY_ddHj2FPT2G');
-    /* background-image: url('http://drive.google.com/uc?export=view&id=1qk2gkLhLp_WOwmQ7-G8kL8ryShd7-80a'); */
-     background-size:contain;
-    background-repeat: no-repeat;
-
-    
+    max-height: 70vh;
 }
 .Nav-container{
     width: 50%;
@@ -57,3 +53,33 @@
     border-radius: 15pt;
     border: none;
 }
+.menu-burger{
+  display: none !important;
+}
+.img-hero{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 71.9vh;
+}
+
+
+
+@media screen and (max-width:1024px){
+    .img-hero{
+      height: auto;
+    }
+    .Nav-container{
+        width: 60%;
+    }
+    .UI{
+        width: 40%;
+    }
+
+    .main-top{
+
+        min-height: 10vh;
+    }
+  }
+  
+

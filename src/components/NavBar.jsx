@@ -39,6 +39,7 @@ function NavBar() {
                     {link.title}
                 </LinkRouter>
             ))}
+            
         </div>
     )
 }

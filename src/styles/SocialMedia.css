@@ -13,3 +13,19 @@
     margin: 0.3rem 1.2rem;
     width: 55%;
 }
+.social-div{
+    height: fit-content;
+}
+
+@media screen and (max-width:1024px) {
+    .div-SocialMedia{
+        width: 3rem;
+        height: 10rem;
+        margin-bottom: 3.5rem;
+
+    }
+    .div-SocialMedia a {
+        width: 45%;
+        margin: 0.2rem 1rem;
+    }
+}

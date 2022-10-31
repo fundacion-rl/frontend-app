@@ -5,23 +5,39 @@
 }
 
 .div-BannerGlobal {
-    /* background-color: #fecc0d; */
     background-color: #ffae00;
     height: 20vh;
     display: flex;
     align-items: center;
-    padding: 5rem;
+    padding: 1rem;
+    justify-items: center;
 }
 
 .div-logoGC{
     width: 50%;
 }
-.div-textGC{
+.globalCompact-Logo{
     width: 50%;
+    height: 10vh;
+    object-fit: contain;
+}
+.div-textGC{
+    width: 40%;
+    height: 90%;
     text-align: justify;
-    padding: 3rem;
     color: #1b3555;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+@media screen and (max-width:1024px){
+    .globalCompact-Logo{
+        width: 100%;
+    }
+    .div-textGC{
+        width: 60%;
+    }
+    .div-BannerGlobal {
+        padding: .5rem;
+        height: 15vh;
+    }
+}
