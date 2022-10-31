@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className='heroContainer'>
         <CallToAction/>
-        <div>
+        <div className='social-div'>
             <SocialMedia/>
         </div>
     </div>

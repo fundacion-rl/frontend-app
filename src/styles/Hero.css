@@ -7,18 +7,22 @@
 .actionContainer {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    min-height: 80%;
-    padding: 1rem;
+    width: 30%;
+    height: 70%;
+    padding: 1rem, 1rem, 0rem, 1rem;
     margin-left: 3rem;
     text-align: justify;
-    
+    box-sizing: border-box;
 }
 .actionContainer img {
-    width: 70%;
+    width: 75%;
+    height: 70%;
+    object-fit: contain;
 }
 .actionContainer p {
     width: 70%;
+    height:auto;
+    line-height: 13pt;
 }
 .action-Button{
     align-self: flex-start;
@@ -29,10 +33,13 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: .5rem 1rem;
     margin-top: 0.5rem;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
-    border-radius: 15pt;
+    border-radius: 13pt;
     border: none;
+}
+.action-Button:hover{
+    font-weight: bolder;
 }
 
 /*Hero*/
@@ -41,4 +48,33 @@
     width: 100%;
     justify-content: space-between;
 
+}
+
+@media screen and (max-width:1024px) {
+    .actionContainer {
+        height: 100%;
+        width: 35%;
+        font-size: 13px;
+        margin-left: 1rem;
+        padding: 0.2rem;
+    }
+    .actionContainer p{
+        line-height: 10pt;
+    }
+    .actionContainer img {
+        width: 44%;
+        /* height: 75%; */
+        object-fit: contain;
+        padding: .2rem;
+        margin-left: 3rem;
+    }
+    .action-Button{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1018px) {
+.heroContainer { 
+    height: 10%;
+}
 }
