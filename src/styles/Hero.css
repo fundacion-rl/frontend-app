@@ -13,6 +13,7 @@
     margin-left: 3rem;
     text-align: justify;
     box-sizing: border-box;
+
 }
 .actionContainer img {
     width: 75%;
@@ -40,14 +41,15 @@
 }
 .action-Button:hover{
     font-weight: bolder;
+    transform: translateY();
 }
 
 /*Hero*/
 .heroContainer {
+    margin-top: 1.6rem;
     display: flex;
     width: 100%;
     justify-content: space-between;
-
 }
 
 @media screen and (max-width:1024px) {
