@@ -1,3 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .div-stats{
     background-image: url("http://drive.google.com/uc?export=view&id=18cnGQSolD_9AP9X4ofBmo1k2dH-242HT");
+}
+
+.stats-number{
+    width: 10rem;
+    height: 10rem;
+    background-color: #ffae00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.stats-number p {
+    padding: 0;
+    margin: 0;
+    color: #f3ebf6;
+}
+
+
+.div-stats-numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.border-stats{
+    border: 2px solid #ffae00;
+    padding: 2rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
 }

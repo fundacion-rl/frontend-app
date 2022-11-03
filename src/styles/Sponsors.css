@@ -1,0 +1,12 @@
+.marquee-div{
+    background-color: #ffae00;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.img-sponsor{
+    height:7rem;
+    cursor: pointer;
+}

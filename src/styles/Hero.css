@@ -24,6 +24,7 @@
     width: 70%;
     height:auto;
     line-height: 13pt;
+    color: black;
 }
 .action-Button{
     align-self: flex-start;
