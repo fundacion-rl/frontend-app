@@ -27,6 +27,9 @@
   font-size: 11pt;
   text-align: justify;
 }
+.contacto-media{
+  display:none
+}
 .mision h5, .mision p{
     padding-top: 1rem;
    
@@ -34,6 +37,7 @@
 .contacto{
     padding-top: 2rem;
 }
+
 .contacto a{
     text-decoration: none;
 
@@ -76,4 +80,37 @@
 .social img {
   width: 4.5rem;
   height: 2rem;
+}
+
+/* Media Query*/
+
+@media screen and (max-width:1132px) {
+  .footer {
+    height: 24rem;
+  }
+}
+
+@media screen and (max-width:1132px){
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+}
+
+@media screen and (max-width:898px){
+  .contacto{
+    display: none;
+  }
+   .contacto-media{
+    display:flex;
+    flex-direction: column;
+    font-size: 2rem;
+   }
+   .mision { 
+    width: 20rem;
+   }
 }

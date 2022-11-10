@@ -1,0 +1,23 @@
+.img-nuestra-fundacion {
+    width: 100%;
+}
+
+
+.div-cultura{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-mision {
+    width: 18rem;
+}
+
+.text-mision h3 {
+    padding:2rem 0rem;
+    font-weight: bold;
+}
+
+.text-mision p{
+    text-align: justify;
+}

@@ -7,6 +7,16 @@
 
 @import '~antd/dist/antd.css';
 
+.nav-div{
+    width: 100%;
+    background-color:#1b3555;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 .main-top{
     width: 100%;
     display: flex;
@@ -23,7 +33,7 @@
 }
 .navlink{
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: .5rem 1rem;
     font-size: 14px;
@@ -38,6 +48,12 @@
     box-shadow: rgba(50, 50, 93, 0.461) 0px 30px 60px -12px, rgba(0, 0, 0, 0.404) 0px 18px 36px -18px;
 }
 .UI{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
     justify-content: flex-end;
 }
 .UI-link{
@@ -53,9 +69,7 @@
     border-radius: 15pt;
     border: none;
 }
-.menu-burger{
-  display: none !important;
-}
+
 .img-hero{
     width: 100%;
     z-index: -1;
@@ -75,11 +89,25 @@
     .UI{
         width: 40%;
     }
-
+    .navlink, .UI-link{
+        font-size: 12px;
+    }
     .main-top{
 
         min-height: 10vh;
     }
   }
-  
+  @media screen and (min-width:721px) {
+    .menu-burger{
+        display: none !important;
+      }
+  }
 
+  @media screen and (max-width:720px){
+    /* .menu-burger{
+        display: block;
+    } */
+    .Nav-container{
+        display: none;
+    }
+  }

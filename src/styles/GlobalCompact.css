@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,42 +6,63 @@
 
 .div-BannerGlobal {
     background-color: #ffae00;
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     align-items: center;
     padding: 1rem;
     justify-items: center;
 }
 
-.div-logoGC{
+.globalCompact-Logo {
     width: 50%;
-}
-.globalCompact-Logo{
-    width: 50%;
-    height: 10vh;
-    object-fit: contain;
-}
-.div-textGC{
-    width: 40%;
-    height: auto;
-    
 }
 
-.div-textGC p {
-    text-align: justify;
+
+.div-BannerGlobal p {
     color: #1b3555;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    width: 50rem;
 }
 
-@media screen and (max-width:1024px){
-    .globalCompact-Logo{
+@media screen and (max-width:1024px) {
+    .div-BannerGlobal p {
+        font-size: 11pt;
+        padding: 0.5rem;
+    }
+
+    .globalCompact-Logo img {
+        height: auto;
         width: 100%;
     }
-    .div-textGC{
-        width: 60%;
-    }
+}
+
+@media screen and (max-width:768px) {
     .div-BannerGlobal {
-        padding: .5rem;
-        height: 15vh;
+        flex-direction: column;
     }
+
+    .div-BannerGlobal p {
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .globalCompact-Logo {
+        height: auto;
+        width: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+
+    .div-BannerGlobal p {
+font-size: 11px;
+    }
+
+
+
+
 }

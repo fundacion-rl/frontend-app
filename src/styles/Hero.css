@@ -7,13 +7,15 @@
 .actionContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 30%;
     height: 70%;
-    padding: 1rem, 1rem, 0rem, 1rem;
-    margin-left: 3rem;
+    /* padding: 1rem, 1rem, 0rem, 1rem;
+    margin-left: 3rem; */
     text-align: justify;
     box-sizing: border-box;
-
+    padding-top: 2rem;
 }
 .actionContainer img {
     width: 75%;
@@ -27,7 +29,7 @@
     color: black;
 }
 .action-Button{
-    align-self: flex-start;
+    align-self: center;
     background-image: linear-gradient(to right, #457fca 0%, #5691c8  51%, #457fca  100%);
     color: aliceblue;
     box-shadow: rgba(50, 50, 93, 0.461) 0px 30px 60px -12px, rgba(0, 0, 0, 0.404) 0px 18px 36px -18px;
@@ -47,11 +49,19 @@
 
 /*Hero*/
 .heroContainer {
-    margin-top: 1.6rem;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
+
+.main-top {
+   background-image: url('http://drive.google.com/uc?export=view&id=1F3B1jZDUek8w7PNUPyHsY_ddHj2FPT2G');
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
 
 @media screen and (max-width:1024px) {
     .actionContainer {
@@ -62,17 +72,14 @@
         padding: 0.2rem;
     }
     .actionContainer p{
-        line-height: 10pt;
+        line-height: 12pt;
     }
-    .actionContainer img {
-        width: 44%;
-        /* height: 75%; */
-        object-fit: contain;
-        padding: .2rem;
-        margin-left: 3rem;
+
+    .heroContainer{
+        width: 70rem;
     }
     .action-Button{
-        margin-top: 0;
+        margin:1rem;
     }
 }
 
@@ -81,3 +88,71 @@
     height: 10%;
 }
 }
+
+@media screen and (max-width:768px) {
+    .main-top {
+        background-position: center;
+    }
+    .actionContainer img {
+        width: 55%;
+
+    }
+    .actionContainer p {
+        font-size: 8.5pt;
+        line-height: 8pt;
+        margin-bottom: 0;
+    }
+    .actionContainer{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    }
+    @media screen and (min-width:601px) {
+        .logo-light{
+            display: none;
+        }
+    }
+
+
+    @media screen and (max-width:600px) {
+        .main-top {
+            background-image: none;
+            background-color: #1b3555 !important;
+            padding: 1rem;
+        }
+        .actionContainer{
+            flex-direction: row;
+            margin: auto;
+            width: 90%;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .actionContainer img {
+            width: 40%;
+            
+        }
+        .actionContainer p {
+            width: 50%;
+            font-size: 12pt;
+            line-height: 12pt;
+            color: aliceblue;
+        }
+        .logo-color{
+            display: none;
+        }
+
+        }
+
+        @media screen and (max-width:425px) {
+            .actionContainer img {
+                width: 55%;
+        
+            }
+            .actionContainer p {
+                width: 35%;
+                font-size: 8pt;
+                line-height: 10pt;
+
+            }
+    
+            }

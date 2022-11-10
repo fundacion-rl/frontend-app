@@ -7,7 +7,7 @@ function UI() {
 
 
     return (
-        <div className='Nav-container UI'>
+        <div className='UI'>
             <LinkRouter className="UI-link" >
                 INGRESAR
             </LinkRouter>
