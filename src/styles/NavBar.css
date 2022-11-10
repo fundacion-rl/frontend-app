@@ -7,6 +7,15 @@
 
 @import '~antd/dist/antd.css';
 
+.nav-div{
+    width: 100%;
+    background-color:#1b3555;
+    display: flex;
+}
+
+
+
+
 .main-top{
     width: 100%;
     display: flex;
@@ -23,7 +32,7 @@
 }
 .navlink{
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: .5rem 1rem;
     font-size: 14px;
@@ -75,7 +84,9 @@
     .UI{
         width: 40%;
     }
-
+    .navlink, .UI-link{
+        font-size: 12px;
+    }
     .main-top{
 
         min-height: 10vh;

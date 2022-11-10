@@ -6,6 +6,19 @@
 
 .div-stats{
     background-image: url("http://drive.google.com/uc?export=view&id=18cnGQSolD_9AP9X4ofBmo1k2dH-242HT");
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    gap: 4rem;
+}
+
+.div-stats-numbers {
+    width: 15rem;
+    height: 20rem;
 }
 
 .stats-number{
@@ -17,7 +30,6 @@
     align-items: center;
     justify-content: center;
     font-size: 3.5rem;
-    padding: 1rem;
 }
 .stats-number p {
     padding: 0;
@@ -33,10 +45,62 @@
     justify-content: center;
 
 }
+.div-p-stat{
+    width: 10rem;
+}
+
+.text-stats{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
 
 .border-stats{
     border: 2px solid #ffae00;
     padding: 2rem;
     border-radius: 50%;
-    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:768px){
+    .div-stats{
+    padding: 2rem;
+    gap: 2rem;
+    }
+    
+}
+@media screen and (max-width:576px){
+
+    .div-stats-numbers {
+        width: 10rem;
+        height: 20rem;
+    }
+    .stats-number{
+        width: 6rem;
+        height: 6rem;
+
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+
+    .div-stats-numbers {
+        width: 10rem;
+        height: 20rem;
+    }
+    .stats-number{
+        width: 6rem;
+        height: 6rem;
+        font-size: 2rem;
+        
+    }
+    .div-stats{
+        padding: 1rem;
+        gap: 1rem;
+        height: 10rem;
+        justify-content: space-around;
+        }
+    
 }

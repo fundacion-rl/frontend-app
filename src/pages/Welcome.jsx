@@ -15,22 +15,22 @@ import Footer from '../components/Footer'
 function Welcome() {
   return (
     <>
-    <div className='main-top'>
-
-
-    <NavBar/>
-    <Bmenu/>
-    <UI/>
-    <Hero/>
-    <img className='img-hero' src="http://drive.google.com/uc?export=view&id=1F3B1jZDUek8w7PNUPyHsY_ddHj2FPT2G" alt="imgHero" />
-    </div>
-    <BannerGlobalCompact/>
-    <NuestrosProgramas/>
-    <Estadisticas/>
-    <AtencionJuridica/>
-    <UltimasNoticias/>
-    <Sponsors/>
-    <Footer/>
+      <div className='nav-div'>
+        <NavBar />
+        <Bmenu />
+        <UI />
+      </div>
+      <div className='main-top'>
+        <Hero />
+        <img className='img-hero' src="http://drive.google.com/uc?export=view&id=1F3B1jZDUek8w7PNUPyHsY_ddHj2FPT2G" alt="imgHero" />
+      </div>
+      <BannerGlobalCompact />
+      <NuestrosProgramas />
+      <Estadisticas />
+      <AtencionJuridica />
+      <UltimasNoticias />
+      <Sponsors />
+      <Footer />
     </>
   )
 }
