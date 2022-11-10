@@ -24,6 +24,10 @@
 .div-textGC{
     width: 40%;
     height: auto;
+    
+}
+
+.div-textGC p {
     text-align: justify;
     color: #1b3555;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

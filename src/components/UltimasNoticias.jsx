@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/UltimasNoticias.css'
 
 const UltimasNoticias = () => {
   return (
@@ -36,29 +37,11 @@ const UltimasNoticias = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://fundacionretornoalalibertad.org/wp-content/uploads/spotlight-insta/17956314167136286-m-90-600.jpg" className="d-block w-100" alt="..." />
+            <img src="http://drive.google.com/uc?export=view&id=1zjItudbIckrgFYAiz2Jmum_T9WZxnENa" className="d-block w-100" alt="noticiaUno" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+              <h5>Test Noticias Titulo</h5>
               <p>
                 Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
               </p>
             </div>
           </div>

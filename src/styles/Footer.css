@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  color: #f3ebf6;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.footer {
+  background-color: #1c1c1b;
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo,
+.mision,
+.contacto {
+  width: 30%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 11pt;
+  text-align: justify;
+}
+.mision h5, .mision p{
+    padding-top: 1rem;
+   
+}
+.contacto{
+    padding-top: 2rem;
+}
+.contacto a{
+    text-decoration: none;
+
+}
+.logo img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.footer h5{
+    color: #f3ebf6;
+}
+
+.bottom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f3ebf6;
+  padding: 1rem;
+}
+.copyright{
+    width: 45%;
+    height: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    font-size: 10pt;
+    align-items: center;
+}
+.social {
+  width: 45%;
+  height:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social img {
+  width: 4.5rem;
+  height: 2rem;
+}

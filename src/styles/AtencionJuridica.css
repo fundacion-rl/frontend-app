@@ -1,0 +1,18 @@
+.div-atencion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+
+.text-atencion{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1f1e20 !important;
+
+
+}
+
+
+.text-atencion strong{
+    color: #1f1e20 !important;
+}

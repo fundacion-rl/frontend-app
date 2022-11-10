@@ -9,6 +9,8 @@ import NuestrosProgramas from '../components/NuestrosProgramas'
 import Estadisticas from '../components/Estadisticas'
 import AtencionJuridica from '../components/AtencionJuridica'
 import UltimasNoticias from '../components/UltimasNoticias'
+import Sponsors from '../components/Sponsors'
+import Footer from '../components/Footer'
 
 function Welcome() {
   return (
@@ -27,6 +29,8 @@ function Welcome() {
     <Estadisticas/>
     <AtencionJuridica/>
     <UltimasNoticias/>
+    <Sponsors/>
+    <Footer/>
     </>
   )
 }
