@@ -6,6 +6,9 @@ import Hero from '../components/Hero'
 import '../styles/NavBar.css'
 import Bmenu from '../components/Bmenu'
 import NuestrosProgramas from '../components/NuestrosProgramas'
+import Estadisticas from '../components/Estadisticas'
+import AtencionJuridica from '../components/AtencionJuridica'
+import UltimasNoticias from '../components/UltimasNoticias'
 
 function Welcome() {
   return (
@@ -21,6 +24,9 @@ function Welcome() {
     </div>
     <BannerGlobalCompact/>
     <NuestrosProgramas/>
+    <Estadisticas/>
+    <AtencionJuridica/>
+    <UltimasNoticias/>
     </>
   )
 }
