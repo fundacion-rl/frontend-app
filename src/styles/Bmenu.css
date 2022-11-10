@@ -1,0 +1,35 @@
+
+
+
+.button-burger{
+    justify-self: end;
+    color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.461) 0px 30px 60px -12px, rgba(0, 0, 0, 0.404) 0px 18px 36px -18px;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 15pt;
+    border: none;
+    background-color:#1b3555;
+    margin: 1rem;
+}
+.button-burger i{
+    width:3rem;
+    height: 3rem; 
+    padding: .5rem 1rem;
+}
+
+.bi-menu-button-wide::before{
+    background-color:#1b3555 !important;
+}
+
+.bi-menu-button-wide::after{
+    background-color:#1b3555 !important;
+}
+
+
+.nav-link{
+    color: #1b3555 !important;
+    padding: .5rem;
+}
