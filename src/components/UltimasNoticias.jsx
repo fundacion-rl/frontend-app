@@ -41,7 +41,7 @@ const UltimasNoticias = () => {
             <div className="carousel-caption d-none d-md-block">
               <h5>Test Noticias Titulo</h5>
               <p>
-                Some representative placeholder content for the first slide.
+                Texto noticias
               </p>
             </div>
           </div>
