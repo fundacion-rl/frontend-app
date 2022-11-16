@@ -10,6 +10,7 @@
 
 .text-card-valores li{
     color: #212529;
+    text-align: justify;
 }
 .initial-letter{
     color: #212529;
