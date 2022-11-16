@@ -21,3 +21,9 @@
 .div-cultura-organizacional{
     border-bottom: 1px solid gray;
 }
+
+
+.text-mision{
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+}

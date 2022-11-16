@@ -25,7 +25,7 @@ export default function ObjetivoGeneral() {
           src="http://drive.google.com/uc?export=view&id=1O4_nwbJ-oOWLu79WmN3Ft3NFgVTUkg0X"
           alt="objetivos-img"
         />
-        <div className="text-objetivos-especificos">
+        <div className="text-objetivos-especificos p-5">
           <h3>Objetivos Especificos</h3>
           <ul className="text-card-valores">
             <li>

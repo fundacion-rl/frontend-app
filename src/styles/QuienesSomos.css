@@ -24,3 +24,13 @@
 .text-mision p{
     text-align: justify;
 }
+
+.text-objetivos-especificos{
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+}
+
+.p-resena{
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+}

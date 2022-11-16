@@ -97,5 +97,14 @@
     .Nav-container {
         display: flex;
         justify-self: flex-end;
+        width:30%;
+    }
+  }
+
+  @media screen and (max-width:375px){
+    .Nav-container {
+        display: flex;
+        justify-self: flex-end;
+        width:40%;
     }
   }
