@@ -1,7 +1,6 @@
 import React from 'react'
 import BannerGlobalCompact from '../components/BannerGlobalCompact'
 import NavBar from '../components/NavBar'
-import UI from '../components/UI'
 import Hero from '../components/Hero'
 import '../styles/NavBar.css'
 import '../styles/Hero.css'
@@ -17,9 +16,9 @@ function Welcome() {
   return (
     <>
       <div className='nav-div'>
-        <NavBar />
         <Bmenu />
-        <UI />
+        <NavBar />
+
       </div>
       <div className='main-top'>
         <Hero />
