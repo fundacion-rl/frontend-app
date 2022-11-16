@@ -114,3 +114,115 @@
     width: 20rem;
    }
 }
+
+@media screen and (max-width:425px){
+  .footer {
+    height: 57rem;
+    padding: 0rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height:15rem;
+  
+  }
+  .logo img {
+    width: 80%;
+  }
+  .mision {
+    height:10rem;
+    padding:0rem;
+  }
+  .contacto-media {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacto-media a {
+    padding: 1rem;
+  }
+
+  .bottom {
+    display:flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+
+}
+
+@media screen and (max-width:375px){
+  
+  .footer {
+    height: 57rem;
+    padding: 0rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height:15rem;
+  
+  }
+  .logo img {
+    width: 80%;
+  }
+  .mision {
+    height:10rem;
+    padding:0rem;
+  }
+  .contacto-media {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacto-media a {
+    padding: 1rem;
+  }
+
+  .bottom {
+    display:flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+
+}
+
+@media screen and (max-width:320px){
+
+  .footer {
+    height: 57rem
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height:15rem;
+  
+  }
+  .logo img {
+    width: 80%;
+  }
+  .mision {
+    height:15rem;
+  }
+
+  .contacto-media {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contacto-media a {
+    padding: 1rem;
+  }
+
+  .bottom {
+    display:flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  
+}

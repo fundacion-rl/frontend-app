@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p-resena{
+    text-align: justify;
+    width: 90%;
+}
+
+.text-card-valores li{
+    color: #212529;
+}
+.initial-letter{
+    color: #212529;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.div-cultura-organizacional{
+    border-bottom: 1px solid gray;
+}
