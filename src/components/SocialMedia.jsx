@@ -14,7 +14,7 @@ const SocialMedia = () => {
             <a href="https://www.instagram.com/fretolibertad" target="_blank">
              <img src="http://drive.google.com/uc?export=view&id=1OA-_ji160eGYH_Nu-K5jkwTpCv250Vit" alt="instagramLogo" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/in/retorno-libertad-bb328a109" target="_blank">
              <img src="http://drive.google.com/uc?export=view&id=18rUvS_jCxYpGg73bASmr89IbSwNzgbAu" alt="linkedinLogo" />
             </a>
         </div>
