@@ -3,7 +3,7 @@
 }
 
 
-.div-cultura{
+.div-cultura {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,20 +17,25 @@
 }
 
 .text-mision h3 {
-    padding:2rem 0rem;
+    padding: 2rem 0rem;
     font-weight: bold;
 }
 
-.text-mision p{
+.text-mision p {
     text-align: justify;
 }
 
-.text-objetivos-especificos{
+.text-objetivos-especificos {
     background-color: rgba(255, 255, 255, 0.20);
     border-radius: 5px;
 }
 
-.p-resena{
+.p-resena {
     background-color: rgba(255, 255, 255, 0.20);
     border-radius: 5px;
+}
+
+@media (max-width:425px) {
+
+
 }

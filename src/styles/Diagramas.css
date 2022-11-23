@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.div-container{
+border-top:1px solid gray;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+border-bottom:1px solid gray;
+}
+/* 
+.div-single-container{
+
+} */
+
+.div-multiple-container{
+gap: 1rem;
+flex-wrap: wrap;
+}
+
+.div-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-image: linear-gradient(to right, #457fca 0%, #5691c8  51%, #457fca  100%);
+    box-shadow: rgba(50, 50, 93, 0.461) 0px 30px 60px -12px, rgba(0, 0, 0, 0.404) 0px 18px 36px -18px;
+}
+.div-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+
+.btn-desplegable{
+    border: none;
+}
+
+.btn-desplegable:hover{
+    transform: translateY(5px);
+    transition: linear 0.2s;
+}
+
+.div-info-social{
+    background-color: #d1e48e;
+    margin-top:1rem ;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div-info-derechos{
+    background-color: #98e5b5;
+    margin-top:1rem ;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-info-coop{
+    background-color: #d98ef4;
+    margin-top:1rem ;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-info-sostenibilidad{
+    background-color: #e08c35;
+    margin-top:1rem ;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+.div-info-social p, .div-info-coop p, .div-info-derechos p, .div-info-sostenibilidad p{
+    height: 6rem;
+    text-align: justify;
+    padding:0.5rem  0.5rem;
+    }
+
+.div-info-social h3, .div-info-coop h3, .div-info-derechos h3, .div-info-sostenibilidad h3{
+       
+        padding: 0rem 2rem;
+        }
+
+
+
+
