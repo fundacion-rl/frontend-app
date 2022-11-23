@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Resena.css'
 
 export default function ObjetivoGeneral() {
   return (
@@ -15,17 +16,18 @@ export default function ObjetivoGeneral() {
           y la mitigación de la delincuencia.
         </p>
       </div>
-      <div className="" >
+      <div  >
         {/* <img className="w-100" src="http://drive.google.com/uc?export=view&id=1g75KlXoFmk8Jh907H4Lm2-aVdNyumT-O" alt="img-objetivos"/> */}
         <img className="w-100" src="http://drive.google.com/uc?export=view&id=1MAP3gAqmG2D3dti-OTZNCe7274jFwUqr" alt="img-objetivos"/>
 
       </div>
-      <div className="container div-cultura my-5">
+      <div className="container div-cultura my-5 div-objetivos">
         <img
+        className="img-text"
           src="http://drive.google.com/uc?export=view&id=1O4_nwbJ-oOWLu79WmN3Ft3NFgVTUkg0X"
           alt="objetivos-img"
         />
-        <div className="text-objetivos-especificos p-5">
+        <div className="text-objetivos-especificos  p-5">
           <h3>Objetivos Especificos</h3>
           <ul className="text-card-valores">
             <li>
