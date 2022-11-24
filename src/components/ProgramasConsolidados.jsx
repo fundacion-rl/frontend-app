@@ -25,7 +25,7 @@ export default function ProgramasConsolidados() {
   };
 
   return (
-    <div className="d-flex gap-5">
+    <div className="d-flex gap-5 div-programas-consolidados">
       <div className="div-single-container div-desplegable">
         <button
           onClick={handleSocial}

@@ -16,13 +16,9 @@ export default function Programas() {
         <h2>Programas Institucionales</h2>
       </div>
       <ProgramasInstitucionales/>
- 
       <DiagramaProgramas/>
       <DivProgramas/>
       <br/>
-      <br/>
-      <br/>
-
     </Layout>
   )
 }
