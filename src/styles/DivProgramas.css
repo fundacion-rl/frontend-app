@@ -1,0 +1,36 @@
+.div-container-program{
+    background-color: rgba(255, 255, 255, 0.20);
+    padding: 0rem 2rem;
+    border-radius: 5px;
+    
+}
+
+.div-container-program h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem 0rem;
+}
+.div-container-program img {
+    border-radius: 5px;
+    width:20rem;
+} 
+
+
+.left{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.left p, .right p{
+    text-align: justify;
+    word-spacing: 0.5rem;
+    line-height: 1.8rem;
+    padding: 2rem 2rem;
+
+}

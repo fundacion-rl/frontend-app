@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Diagramas.css'
+import DivProgramas from './DivProgramas'
+import NuestrosProgramas from './NuestrosProgramas'
 import ProgramasConsolidados from './ProgramasConsolidados'
 
 export default function DiagramaProgramas() {

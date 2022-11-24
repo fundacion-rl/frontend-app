@@ -1,5 +1,6 @@
 import React from 'react'
 import DiagramaProgramas from '../components/DiagramaProgramas'
+import DivProgramas from '../components/DivProgramas'
 import ProgramasInstitucionales from '../components/ProgramasInstitucionales'
 import Layout from '../layout/Layout'
 
@@ -15,10 +16,9 @@ export default function Programas() {
         <h2>Programas Institucionales</h2>
       </div>
       <ProgramasInstitucionales/>
-
-      <br/>
+ 
       <DiagramaProgramas/>
-      <br/>
+      <DivProgramas/>
       <br/>
       <br/>
       <br/>

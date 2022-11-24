@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/DivProgramas.css'
 export default function DivProgramas() {
 
     const arrayProgramasInfo = [
@@ -37,7 +37,24 @@ export default function DivProgramas() {
 
   return (
 <>
-    <div>
+    <div className='container'>
+        {
+            arrayProgramasInfo.map((e)=>{
+                return (
+                    <div className='div-container-program my-5' key={e.id} id={e.id} >
+                        
+                        <div className={e.class} >
+                            <img  className='py-4' src={e.img} alt={e.title} />
+                            <div>
+                            <h2 className='text-title'>{e.title}</h2>
+                            <p className='text-dark' >{e.text}</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                )
+            })
+        }
     </div>
 
 </>
