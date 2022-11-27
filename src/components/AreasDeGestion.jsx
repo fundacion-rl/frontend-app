@@ -6,7 +6,7 @@ export default function AreasDeGestion() {
       <div className="div-programas">
         <h2>ÁREAS DE GESTION</h2>
       </div>
-      <p className="p-resena">
+      <p className="p-resena text-dark container py-5">
         Las áreas de gestión: para su construcción se toman en cuenta los
         objetivos específicos institucionales, desarrollando una estrategia
         metodológica que permita el cumplimiento a cabalidad de dichos objetivos
