@@ -5,6 +5,9 @@ import '../styles/SocialMedia.css'
 const SocialMedia = () => {
     return (
         <div className='div-SocialMedia' >
+            <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
+             <img className='logo-whatsapp' src="http://drive.google.com/uc?export=view&id=1dq9QukiEjXiNh49PaBhXX3KRzlX4-xxN" alt="whatsappLogo" />
+            </a>
             <a href="https://twitter.com/FRetoLibertad" target="_blank">
              <img src="http://drive.google.com/uc?export=view&id=1LQw5gMPfq-CIv8jPuatxbwNZuRxJwM7k" alt="twitterLogo" />
             </a>

@@ -17,7 +17,10 @@
     object-fit: contain;
     
 } 
-
+.text-title{
+    text-align: start !important;
+    padding-left: 1.5rem !important;
+}
 
 .left{
     display: flex;

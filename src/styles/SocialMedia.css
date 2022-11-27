@@ -2,13 +2,15 @@
   margin-top: 4rem;
   background-color: #1c1c1b;
   width: 4.5rem;
-  height: 18rem;
+  height: 20rem;
   border-radius: 2rem 0rem 0rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-
+.logo-whatsapp{
+  width: 110%;
+}
 .div-SocialMedia a {
   margin: 0.3rem 1.2rem;
   width: 55%;
@@ -20,7 +22,7 @@
 @media screen and (max-width: 1024px) {
   .div-SocialMedia {
     width: 3rem;
-    height: 10rem;
+    height: 12rem;
     margin-bottom: 3.5rem;
   }
   .div-SocialMedia a {

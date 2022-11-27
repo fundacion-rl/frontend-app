@@ -20,6 +20,11 @@ const Sponsors = () => {
             src: "https://www.minjusticia.gov.co/"
         },
         {
+            id: "04",
+            img: "http://drive.google.com/uc?export=view&id=1E2yjqIYKehSIiuCwkk1OGiGbYRcp5xvq",
+            src: "https://www.inpec.gov.co/"
+        },
+        {
             id: "01",
             img: "http://drive.google.com/uc?export=view&id=1sCwN7yvgbwhr_qEM2ZOvV1WzVwhGaC15",
             src: "https://www.unglobalcompact.org/"
@@ -33,6 +38,11 @@ const Sponsors = () => {
             id: "03",
             img: "http://drive.google.com/uc?export=view&id=1AiwGSO_CeA56_1Z905xC9I-nxf8hjSfn",
             src: "https://www.minjusticia.gov.co/"
+        },
+        {
+            id: "04",
+            img: "http://drive.google.com/uc?export=view&id=1E2yjqIYKehSIiuCwkk1OGiGbYRcp5xvq",
+            src: "https://www.inpec.gov.co/"
         }
     ]
 

@@ -30,7 +30,7 @@ function Footer() {
             <i class="bi bi-envelope"></i> info@fundacionretornoalalibertad.org
           </p>
         </a>
-        <a href="">
+        <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
           <p>
             <i class="bi bi-phone"></i> (+57) 317 550 5158
           </p>
@@ -60,6 +60,9 @@ function Footer() {
           reservados.
         </p>
         <div className="social">
+        <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
+             <img className='logo-whatsapp-footer' src="http://drive.google.com/uc?export=view&id=1dq9QukiEjXiNh49PaBhXX3KRzlX4-xxN" alt="whatsappLogo" />
+            </a>
           <a href="https://twitter.com/FRetoLibertad">
             <img
               src="http://drive.google.com/uc?export=view&id=1LQw5gMPfq-CIv8jPuatxbwNZuRxJwM7k"
