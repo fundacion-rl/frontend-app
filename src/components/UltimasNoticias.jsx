@@ -5,7 +5,7 @@ const UltimasNoticias = () => {
   return (
     <div>
       <div className="div-programas">
-        <h2>Ultimas Noticias</h2>
+        <h2>Últimas Noticias</h2>
       </div>
 
       <div

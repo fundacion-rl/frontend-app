@@ -15,7 +15,7 @@ export default function QuienesSomos() {
         className="img-nuestra-fundacion"
       />
       <div className="div-programas">
-        <h2>Nuestra Fundación</h2>
+        <h2>Fundación Retorno a la Libertad</h2>
       </div>
       <Resena />
       <BanderaDiv />

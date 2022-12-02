@@ -13,7 +13,7 @@ function NavBar() {
     {
       id: "_quienessomos",
       to: "/quienessomos",
-      title: "Quienes Somos",
+      title: "Quiénes Somos",
     },
     {
       id: "_proyectos",
@@ -26,15 +26,16 @@ function NavBar() {
       title: "Programas",
     },
     {
-      id: "_donaciones",
-      to: "/donaciones",
-      title: "Donaciones",
-    },
-    {
       id: "_contacto",
       to: "/contacto",
       title: "Contacto",
     },
+    {
+      id: "_donaciones",
+      to: "/donaciones",
+      title: "Donaciones",
+    },
+
   ];
 
   return (

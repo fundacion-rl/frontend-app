@@ -14,9 +14,7 @@ function Footer() {
       <div className="mision">
         <h5>Fundación Retorno a la Libertad</h5>
         <p>
-          La Fundación consiste en ayudar a los internos colombianos y
-          extranjeros a resocialización, acompañamiento jurídico, servicio
-          médico, psicológico, entre otros.
+        La fundación consiste en devolver la dignidad humana a aquellos que por diversas circunstancias, han perdido su libertad o se le han vulnerado sus derechos humanos. Se busca igualdad y bienestar para todos los ciudadanos del mundo.
         </p>
       </div>
       <div className="contacto">
@@ -81,7 +79,7 @@ function Footer() {
               alt="instagram"
             />
           </a>
-          <a href="https://www.linkedin.com/in/retorno-libertad-bb328a109">
+          <a href="https://www.linkedin.com/company/fundaci%C3%B3n-retorno-a-la-libertad/about/">
             <img
               src="http://drive.google.com/uc?export=view&id=18rUvS_jCxYpGg73bASmr89IbSwNzgbAu"
               alt="linkedin"
