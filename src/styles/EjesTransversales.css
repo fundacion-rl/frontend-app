@@ -1,0 +1,61 @@
+.div-ejes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.lista-ejes li{
+    color: #1f1e20 !important ;
+}
+
+.img-ejes{
+    width: 50rem;
+}
+
+.div-ejes-lista{
+    width: 20rem;
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+
+
+.div-tres-ejes{
+    display: flex;
+    border-top: 1px solid gray;
+    margin-top: 1rem;
+    align-items: center;
+}
+.div-tres-ejes-texto{
+    color: #1f1e20 !important;
+}
+.img-componentes-gestion{
+    width: 45rem;
+}
+.div-componentes-gestion{
+    border: none;
+}
+@media (max-width:1024px) {
+    .div-tres-ejes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img-componentes-gestion{
+        width: 70%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .img-ejes{
+        width: 100%;
+    }
+    .img-tres-ejes{
+        width: 100%;
+    }
+    .div-componentes-gestion {
+        width: 100%;
+    }
+}
+
+

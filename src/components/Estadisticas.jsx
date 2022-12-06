@@ -12,7 +12,7 @@ const Estadisticas = () => {
             </div>
           </div>
           <div className="div-p-stats">
-            <p className="text-stats">Departamentos de Colombia con presencia constante.</p>
+            <p className="text-stats">Departamentos de Colombia donde estamos presentes.</p>
           </div>
         </div>
 
@@ -23,7 +23,7 @@ const Estadisticas = () => {
             </div>
           </div>
           <div className="div-p-stats">
-            <p className="text-stats">De Beneficiarios extranjeros en nuestra fundación.</p>
+            <p className="text-stats">Beneficiarios extranjeros en nuestra fundación.</p>
           </div>
         </div>
 

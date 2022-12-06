@@ -14,7 +14,7 @@ const Bmenu = () => {
     {
       id: "_quienessomos",
       to: "/quienessomos",
-      title: "Quienes Somos",
+      title: "Quiénes Somos",
     },
     {
       id: "_proyectos",
@@ -71,6 +71,9 @@ const Bmenu = () => {
           ))}
 
           <div className="burguer-SocialMedia">
+          <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
+             <img className='logo-whatsapp' src="http://drive.google.com/uc?export=view&id=1dq9QukiEjXiNh49PaBhXX3KRzlX4-xxN" alt="whatsappLogo" />
+            </a>
             <a href="https://twitter.com/FRetoLibertad" target="_blank">
               <img
                 src="http://drive.google.com/uc?export=view&id=1LQw5gMPfq-CIv8jPuatxbwNZuRxJwM7k"
@@ -89,7 +92,7 @@ const Bmenu = () => {
                 alt="instagramLogo"
               />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/company/fundaci%C3%B3n-retorno-a-la-libertad/about" target="_blank">
               <img
                 src="http://drive.google.com/uc?export=view&id=18rUvS_jCxYpGg73bASmr89IbSwNzgbAu"
                 alt="linkedinLogo"

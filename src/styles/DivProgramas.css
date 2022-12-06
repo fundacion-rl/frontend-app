@@ -1,0 +1,57 @@
+.div-container-program{
+    background-color: rgba(255, 255, 255, 0.20);
+    padding: 0rem 2rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.40);
+    
+}
+
+.div-container-program h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem 0rem;
+}
+.img-div-programa {
+    border: 1rem solid aliceblue;
+    width:20rem;
+    object-fit: contain;
+    
+} 
+.text-title{
+    text-align: start !important;
+    padding-left: 1.5rem !important;
+}
+
+.left{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.left p, .right p{
+    text-align: justify;
+    word-spacing: 0.5rem;
+    line-height: 1.8rem;
+    padding: 2rem 2rem;
+
+}
+
+@media (max-width:768px) {
+    .left{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left p, .right p{
+        padding: 1rem 1rem;
+    
+    }
+}

@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Welcome from './pages/Welcome';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import QuienesSomos from './pages/QuienesSomos';
+import Programas from './pages/Programas';
+import Proyectos from './pages/Proyectos';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Routes>
       <Route path='/' element={<Welcome/>}/>
       <Route path='/quienessomos' element={<QuienesSomos/>}/>
+      <Route path='/programas' element={<Programas/>}/>
+      <Route path='/proyectos' element={<Proyectos/>}/>
       </Routes>
     </BrowserRouter>
   );

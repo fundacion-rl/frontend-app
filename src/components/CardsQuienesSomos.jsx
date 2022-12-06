@@ -4,8 +4,9 @@ import '../styles/Resena.css'
 export default function CardsQuienesSomos() {
   return (
     <>
-      <div className="container div-cultura div-cultura-organizacional my-5">
+      <div className="container div-cultura div-cultura-organizacional div-mision my-5">
         <img
+        className="img-text img-cultura-organizacional"
           src="http://drive.google.com/uc?export=view&id=1ogFljxZdfT8Vynke5ACE2M8XgF76CLv4"
           alt="cultura"
         />
@@ -31,7 +32,7 @@ export default function CardsQuienesSomos() {
           </p>
         </div>
       </div>
-      <div className="container div-cultura my-5">
+      <div className="container div-cultura div-valores my-5">
         <div className="text-mision">
           <h3>Principios</h3>
             <ul className="text-card-valores">
@@ -60,6 +61,7 @@ export default function CardsQuienesSomos() {
             </ul>
         </div>
         <img
+          className="img-text"
           src="http://drive.google.com/uc?export=view&id=1ospogZ9544rOV2OyhXl4oSej9SniJmfs"
           alt="Mensaje"
         />

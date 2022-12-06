@@ -23,6 +23,12 @@
     text-align: justify;
     width: 50rem;
 }
+.text-strong{
+    color: #1b3555;
+}
+.img-global-compact{
+    width: 10rem;
+}
 
 @media screen and (max-width:1024px) {
     .div-BannerGlobal p {

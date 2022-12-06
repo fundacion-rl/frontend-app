@@ -1,25 +1,36 @@
-import React from 'react'
-import '../styles/GlobalCompact.css'
-import {Link as LinkRouter} from 'react-router-dom'
+import React from "react";
+import "../styles/GlobalCompact.css";
+import unGlobalCompactIMG from '../assets/globalCompactLogo.png'
 
 export default function BannerGlobalCompact() {
   return (
-    <div className='div-BannerGlobal'>
-      
+    <div className="div-BannerGlobal">
+      <div className="container d-flex align-items-center">
+      <a
+        className="globalCompact-Logo"
+        href="https://www.unglobalcompact.org"
+        target="_blank"
+      >
+        {/* <img
+          src="http://drive.google.com/uc?export=view&id=1sCwN7yvgbwhr_qEM2ZOvV1WzVwhGaC15"
+          alt="global compact UN"
+        /> */}
+                <img
+          src={unGlobalCompactIMG}
+          alt="global compact UN"
+          className="img-global-compact"
+        />
+      </a>
 
-          <a  className='globalCompact-Logo' href='https://www.unglobalcompact.org' target="_blank" >
-          <img src="http://drive.google.com/uc?export=view&id=1sCwN7yvgbwhr_qEM2ZOvV1WzVwhGaC15" alt="global compact UN" />
-          </a>
-          
-          
-
-
-
-            <p>
-            Desde 2020, FUNDACION RETORNO A LA LIBERTAD se ha comprometido con la iniciativa de responsabilidad corporativa del Pacto Mundial de las Naciones Unidas y sus principios en las áreas de derechos humanos, trabajo, medio ambiente y lucha contra la corrupción.
-            </p>
-
-
+      <p>
+        “Desde el 2020, la{" "}
+        <strong className="text-strong">Fundación Retorno a la Libertad</strong>,
+        se ha comprometido con las iniciativas de responsabilidad corporativa
+        del Pacto Mundial de las Naciones Unidas y sus principios en las áreas
+        de derechos humanos, empleo, medio ambiente, progreso social, mejorar el
+        nivel de vida de los ciudadanos y la lucha contra la corrupción.”
+      </p>
+      </div>
     </div>
-  )
+  );
 }

@@ -5,6 +5,9 @@ import '../styles/SocialMedia.css'
 const SocialMedia = () => {
     return (
         <div className='div-SocialMedia' >
+            <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
+             <img className='logo-whatsapp' src="http://drive.google.com/uc?export=view&id=1dq9QukiEjXiNh49PaBhXX3KRzlX4-xxN" alt="whatsappLogo" />
+            </a>
             <a href="https://twitter.com/FRetoLibertad" target="_blank">
              <img src="http://drive.google.com/uc?export=view&id=1LQw5gMPfq-CIv8jPuatxbwNZuRxJwM7k" alt="twitterLogo" />
             </a>
@@ -14,7 +17,7 @@ const SocialMedia = () => {
             <a href="https://www.instagram.com/fretolibertad" target="_blank">
              <img src="http://drive.google.com/uc?export=view&id=1OA-_ji160eGYH_Nu-K5jkwTpCv250Vit" alt="instagramLogo" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/company/fundaci%C3%B3n-retorno-a-la-libertad/about" target="_blank">
              <img src="http://drive.google.com/uc?export=view&id=18rUvS_jCxYpGg73bASmr89IbSwNzgbAu" alt="linkedinLogo" />
             </a>
         </div>

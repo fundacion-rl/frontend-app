@@ -10,6 +10,7 @@
 
 .text-card-valores li{
     color: #212529;
+    text-align: justify;
 }
 .initial-letter{
     color: #212529;
@@ -20,10 +21,46 @@
 }
 .div-cultura-organizacional{
     border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
 }
 
 
 .text-mision{
     background-color: rgba(255, 255, 255, 0.20);
     border-radius: 5px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .div-valores{
+        
+        flex-wrap: wrap-reverse;
+        gap: 1rem;
+    }
+    .img-text{
+        width: 30rem;
+    }
+    .div-mision{
+        gap: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .div-mision{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .div-objetivos{
+        flex-direction: column;
+
+    }
+
+}
+
+@media (max-width:425px) {
+    .img-text{
+        width: 100%;
+    }
+    
 }
