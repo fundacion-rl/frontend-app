@@ -26,6 +26,11 @@ function NavBar() {
       title: "Programas",
     },
     {
+      id: "_documentos",
+      to: "/docs",
+      title: "Documentos",
+    },
+    {
       id: "_contacto",
       to: "/contacto",
       title: "Contacto",

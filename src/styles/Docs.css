@@ -1,0 +1,24 @@
+.div-doc-pdf{
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-pdf-icon {
+    width: 3.5rem;
+}
+
+.div-text-doc p, .div-text-doc h2{
+    color: #1c1c1b !important;
+}
+
+.div-pdf{
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-a-btn{
+    align-self: center;
+}

@@ -35,7 +35,21 @@
     border-radius: 5px;
 }
 
-@media (max-width:425px) {
+@media (max-width:768px) {
+    .img-nuestra-fundacion{
+        display: none;
+    }
+    .div-logo-light-tablet{
+        background-color:#1b3555;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .logo-light{
+        display: block;
+        width: 15rem;
+    }
 
 
 }

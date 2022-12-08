@@ -27,6 +27,11 @@ const Bmenu = () => {
       title: "Programas",
     },
     {
+      id: "_documentos",
+      to: "/docs",
+      title: "Documentos",
+    },
+    {
       id: "_donaciones",
       to: "/donaciones",
       title: "Donaciones",

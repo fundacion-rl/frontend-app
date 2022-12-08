@@ -14,6 +14,13 @@ export default function QuienesSomos() {
         alt="nuestraFundacion"
         className="img-nuestra-fundacion"
       />
+      <div className="div-logo-light-tablet">
+        <img
+          src="http://drive.google.com/uc?export=view&id=1GtSiMBWiCxshS0U3pN62ZQTQ9RyUmSM9"
+          alt="logoFundacion"
+          className="logo-light"
+        />
+      </div>
       <div className="div-programas">
         <h2>Fundación Retorno a la Libertad</h2>
       </div>
@@ -23,7 +30,7 @@ export default function QuienesSomos() {
       <div className="div-programas">
         <h2>Objetivo General</h2>
       </div>
-      <ObjetivoGeneral/>
+      <ObjetivoGeneral />
     </Layout>
   );
 }
