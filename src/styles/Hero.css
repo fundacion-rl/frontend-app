@@ -123,10 +123,14 @@
         margin-left: 0;
         padding-left: 0;
     }
+    /* .logo-light-hero{
+        display: none !important;
+    } */
+
     }
     @media screen and (min-width:601px) {
         .logo-light{
-            display: none;
+            display: none !important;
         }
     }
 

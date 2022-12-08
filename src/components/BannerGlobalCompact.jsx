@@ -5,7 +5,7 @@ import unGlobalCompactIMG from '../assets/globalCompactLogo.png'
 export default function BannerGlobalCompact() {
   return (
     <div className="div-BannerGlobal">
-      <div className="container d-flex align-items-center">
+      <div className="container d-flex align-items-center div-container-global-compact">
       <a
         className="globalCompact-Logo"
         href="https://www.unglobalcompact.org"

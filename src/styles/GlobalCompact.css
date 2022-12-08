@@ -40,6 +40,12 @@
         height: auto;
         width: 100%;
     }
+    .div-container-global-compact{
+       gap: 1rem;
+    }
+    .img-global-compact{
+        width: 10rem !important;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -48,7 +54,7 @@
     }
 
     .div-BannerGlobal p {
-        width: 80%;
+        width: 90%;
         padding: 1rem;
     }
 
@@ -56,7 +62,14 @@
         height: auto;
         width: 70%;
     }
-
+    .div-container-global-compact{
+        flex-direction: column;
+        align-items: center;
+     }
+     .globalCompact-Logo{
+        display: flex;
+        justify-content: center;
+     }
 
 }
 
@@ -65,7 +78,7 @@
 
 
     .div-BannerGlobal p {
-font-size: 11px;
+font-size: 10pt;
     }
 
 
