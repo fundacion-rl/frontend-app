@@ -9,7 +9,7 @@ export default function BannerGlobalCompact() {
       <a
         className="globalCompact-Logo"
         href="https://www.unglobalcompact.org"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         {/* <img
           src="http://drive.google.com/uc?export=view&id=1sCwN7yvgbwhr_qEM2ZOvV1WzVwhGaC15"
