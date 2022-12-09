@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacto-titulo{
+    width: 100%;
+    text-align: center;
+    background-color:#1b3555;
+    color: aliceblue;
+    margin: 0;
+    padding: 1rem;
+}
+form, .contacto-c{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: .5rem;
+    font-size: 1rem;
+    color: #1b3555;
+}
+.contacto-c{
+    background-color: #1b3555;
+    border: 1px solid aliceblue;
+    border-radius: 30pt;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contacto-c p, .contacto-c a, .contacto-c i{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+fieldset{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: aliceblue;
+    border: 1px solid #1b3555;
+    border-radius: 30pt;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 1rem;
+    align-items: center;
+    align-self: center;
+}
+input{
+    height: 2rem;
+    border-radius: 10pt;
+    border: rgb(79, 78, 78);
+}
+textarea{
+    border-radius: 10pt;
+    border: rgb(79, 78, 78);
+}
+input[type='submit']{
+    background-color: #1b3555;
+    padding: .5rem 1rem;
+    text-align: center;
+    height: 3rem;
+    color: aliceblue;
+    margin: .3rem;
+}
+.mapa-c{
+    width: 100%;
+    height: 50vh;
+    padding: 1rem 0rem;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.div-BannerGlobal{
+    width: 100%;
+}
+@media screen and (max-width:1100px) {
+    form, .contacto-c{
+        width: 90%;
+    }
+    fieldset{
+        width: 90%;
+    }
+}
