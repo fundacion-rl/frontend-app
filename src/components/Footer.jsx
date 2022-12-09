@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as LinkRouter } from "react-router-dom";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -18,36 +17,36 @@ function Footer() {
         </p>
       </div>
       <div className="contacto">
-        <a href="">
+        <a href="https://www.google.com/maps?ll=4.705944,-74.03886&z=17&t=m&hl=es-AR&gl=US&mapclient=embed&q=Cra.+12+%2314+Bogot%C3%A1+Colombia">
           <p>
-            <i class="bi bi-geo-alt"></i> Carrera 12 # 14 - 71, Ofi. 302
-          </p>
-        </a>
-        <a href="">
-          <p className="f-email">
-            <i class="bi bi-envelope"></i> info@fundacionretornoalalibertad.org
-          </p>
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
-          <p>
-            <i class="bi bi-phone"></i> (+57) 317 550 5158
-          </p>
-        </a>
-      </div>
-      <div className="contacto-media">
-        <a href="">
-          <p>
-            <i class="bi bi-geo-alt"></i>
+            <i className="bi bi-geo-alt"></i> Carrera 12 # 14 - 71, Ofi. 302
           </p>
         </a>
         <a href="mailto:info@fundacionretornoalalibertad.org">
           <p className="f-email">
-            <i class="bi bi-envelope"></i>
+            <i className="bi bi-envelope"></i> info@fundacionretornoalalibertad.org
+          </p>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank" rel="noreferrer">
+          <p>
+            <i className="bi bi-phone"></i> (+57) 317 550 5158
+          </p>
+        </a>
+      </div>
+      <div className="contacto-media">
+        <a href="https://www.google.com/maps?ll=4.705944,-74.03886&z=17&t=m&hl=es-AR&gl=US&mapclient=embed&q=Cra.+12+%2314+Bogot%C3%A1+Colombia">
+          <p>
+            <i className="bi bi-geo-alt"></i>
+          </p>
+        </a>
+        <a href="mailto:info@fundacionretornoalalibertad.org">
+          <p className="f-email">
+            <i className="bi bi-envelope"></i>
           </p>
         </a>
         <a href="tel:+573175505158">
           <p>
-            <i class="bi bi-phone"></i>
+            <i className="bi bi-phone"></i>
           </p>
         </a>
       </div>
@@ -58,7 +57,7 @@ function Footer() {
           reservados.
         </p>
         <div className="social">
-        <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=573175505158&text=Hola%2C+necesito+ayuda+con%3A" target="_blank" rel="noreferrer">
              <img className='logo-whatsapp-footer' src="http://drive.google.com/uc?export=view&id=1dq9QukiEjXiNh49PaBhXX3KRzlX4-xxN" alt="whatsappLogo" />
             </a>
           <a href="https://twitter.com/FRetoLibertad">

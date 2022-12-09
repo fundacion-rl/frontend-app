@@ -89,7 +89,7 @@ const Sponsors = () => {
                 {
                     arraySponsors.map((sponsor) => {
                         return (
-                            <a href={sponsor.src} target="_blank">
+                            <a href={sponsor.src} target="_blank" rel="noreferrer" key={sponsor.id}>
                                 <img className="img-sponsor mx-5" src={sponsor.img} key={sponsor.id} alt={sponsor.id} />
                             </a>
                         )

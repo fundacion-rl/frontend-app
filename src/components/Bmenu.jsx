@@ -56,7 +56,7 @@ const Bmenu = () => {
     <>
       <Space className="menu-burger">
         <Button className="button-burger navbar-toggler" onClick={showDrawer}>
-          <i class="bi bi-menu-button-wide"></i>
+          <i className="bi bi-menu-button-wide"></i>
         </Button>
       </Space>
       <Drawer
