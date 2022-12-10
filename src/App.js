@@ -7,6 +7,7 @@ import QuienesSomos from './pages/QuienesSomos';
 import Programas from './pages/Programas';
 import Proyectos from './pages/Proyectos';
 import Documentos from './pages/Documentos';
+import Donaciones from './pages/Donaciones';
 import Contacto from './pages/Contacto';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/programas' element={<Programas/>}/>
       <Route path='/proyectos' element={<Proyectos/>}/>
       <Route path='/docs' element={<Documentos/>}/>
+      <Route path='/donaciones' element={<Donaciones/>}/>
       <Route path='/contacto' element={<Contacto/>}/>
       </Routes>
     </BrowserRouter>
