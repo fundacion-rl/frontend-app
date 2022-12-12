@@ -32,7 +32,8 @@ export default function CardsQuienesSomos() {
           </p>
         </div>
       </div>
-      <div className="container div-cultura div-valores my-5">
+      <div className="container div-cultura div-valores py-5">
+
         <div className="text-mision">
           <h3>Principios</h3>
             <ul className="text-card-valores">
@@ -47,7 +48,7 @@ export default function CardsQuienesSomos() {
             </ul>
 
         </div>
-        <div className="text-mision">
+        <div className="text-mision my-5">
           <h3>Valores</h3>
           <ul className="text-card-valores">
                 <li><strong className="initial-letter">Amor</strong>, por sí mismo, por el otro.</li>

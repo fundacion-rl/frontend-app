@@ -28,53 +28,53 @@ const Sponsors = () => {
         {
             id:"05",
             img:"http://drive.google.com/uc?export=view&id=1UVPCz_ENTcYDyFf6BGDWLRRV0RZc0d0g",
-            src:"#"
+            src:"https://www.unep.org/es"
         },
         {
             id:"06",
             img:"http://drive.google.com/uc?export=view&id=1VXXfrwrqs9VV8pBE70aUJIV0969vNJ18",
-            src:"#"
+            src:"https://www.ohchr.org/es/ohchr_home"
         },
         {
             id:"07",
             img:"http://drive.google.com/uc?export=view&id=1T1iM5Y5RvyPauSABSfPz0z7joI_7wo6x",
-            src:"#"
+            src:"https://unctad.org/es"
         },
         {
             id:"08",
             img:"http://drive.google.com/uc?export=view&id=1SxPJue_0eCJEzfriQs739eRpgQxzFE0r",
-            src:"#"
+            src:"https://www.who.int/es"
         },
         {
             id:"09",
             img:"http://drive.google.com/uc?export=view&id=1UFObuO01uIq9foMi1qfrEfg94gQhSRgq",
-            src:"#"
+            src:"https://www.ohchr.org/es/ohchr_home?gclid=EAIaIQobChMI35H3q-T0-wIV_xTUAR0cwQMbEAAYAiAAEgJP1PD_BwE"
         },
         {
             id:"10",
             img:"http://drive.google.com/uc?export=view&id=1W_cB9zq1L4JxQqmhii1AvgSHJtSoxutm",
-            src:"#"
+            src:"https://www.fao.org/home/es"
         },
         {
             id:"11",
             img:"http://drive.google.com/uc?export=view&id=1Hm4XJ9FMtdcT3pia1g2auenDZut_3Bwi",
-            src:"#"
+            src:"https://www.unesco.org/es"
         },
         {
             id:"12",
             img:"http://drive.google.com/uc?export=view&id=1GpUGZlucKs9UoLBfwlJQIOaLVvS_2IIG",
-            src:"#"
+            src:"https://www.imf.org/es/home"
         },
         {
             id:"13",
             img:"http://drive.google.com/uc?export=view&id=1H2gj5kEAWEccZ0nq-NjPxe_JRt7gomIT",
-            src:"#"
+            src:"https://unfoundation.org/?gclid=EAIaIQobChMIwoKQz-f0-wIV-xXUAR14zg9nEAAYASAAEgLHg_D_BwE"
         }
         ,
         {
             id:"14",
             img:"http://drive.google.com/uc?export=view&id=1fFl-Fdf90KixogriJt7DJtmQe3_r1v41",
-            src:"#"
+            src:"https://www.cepal.org/es"
         }
 
     ]
