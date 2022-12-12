@@ -38,7 +38,7 @@ const NuestrosProgramas = ()=>{
 
         <div className="div-cards">
         {
-            arrayProgramas.map((item)=> <ProgramasCard img={item.img} title={item.title} id={item.id} /> )
+            arrayProgramas.map((item)=> <ProgramasCard key={item.id} img={item.img} title={item.title} id={item.id} /> )
         }
         </div>
         

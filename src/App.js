@@ -1,4 +1,3 @@
-import logo from './logoFundacion.png';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Welcome from './pages/Welcome';
